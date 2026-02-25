@@ -1,11 +1,4 @@
-//
-//  Package.swift
-//  TrueTime
-//
-//  Created by Vien Dinh on 2/25/26.
-//  Copyright © 2026 Instacart. All rights reserved.
-//
-
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(

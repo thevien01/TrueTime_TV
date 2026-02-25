@@ -6,8 +6,8 @@
 //  Copyright © 2016 Instacart. All rights reserved.
 //
 
-@import Foundation;
-#import "ntp_types.h"
+#import <Foundation/Foundation.h>
+#import <TrueTime/ntp_types.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
