@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <TrueTime/ntp_types.h>
+
+#ifdef SWIFT_PACKAGE
+    #import "ntp_types.h"
+#else
+    #import <TrueTime/ntp_types.h>
+#endif
+
 
 NS_ASSUME_NONNULL_BEGIN
 
