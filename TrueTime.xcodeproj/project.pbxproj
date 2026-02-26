@@ -243,21 +243,8 @@
 		2800905D1D45489D004C788E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D4C54EC223D1131A009DE762 /* CTrueTime */,
-				280090611D45489D004C788E /* TrueTime.swift */,
-				2866628D1D5B771D002CA06B /* HostResolver.swift */,
-				288334BF1DAF200000A38C7C /* NTPClient.swift */,
-				2866628F1D5B7721002CA06B /* NTPConnection.swift */,
-				280090621D45489D004C788E /* NTPExtensions.swift */,
-				2874855A1DB1AE720020B777 /* NTPResponse.swift */,
-				280090641D45489D004C788E /* Reachability.swift */,
-				28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */,
-				28B93B511D8A05AC00DC91FD /* SocketAddress.swift */,
-				280090631D45489D004C788E /* TimedOperation.swift */,
-				2800905F1D45489D004C788E /* Endian.swift */,
-				28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */,
-				280090651D45489D004C788E /* TrueTime.h */,
-				28BD083F1D6248EC00D9981C /* TrueTime.m */,
+				D9A0A48E2F4FF2B800E371AA /* ObjC */,
+				D9A0A48D2F4FF2B200E371AA /* Swift */,
 				280090601D45489D004C788E /* Info.plist */,
 			);
 			path = Sources;
@@ -361,13 +348,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D4C54EC223D1131A009DE762 /* CTrueTime */ = {
+		D9A0A48D2F4FF2B200E371AA /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				280090611D45489D004C788E /* TrueTime.swift */,
+				2866628D1D5B771D002CA06B /* HostResolver.swift */,
+				288334BF1DAF200000A38C7C /* NTPClient.swift */,
+				2866628F1D5B7721002CA06B /* NTPConnection.swift */,
+				280090621D45489D004C788E /* NTPExtensions.swift */,
+				2874855A1DB1AE720020B777 /* NTPResponse.swift */,
+				280090641D45489D004C788E /* Reachability.swift */,
+				28A88AA81DC1AA1600E1B8C3 /* ReferenceTime.swift */,
+				28B93B511D8A05AC00DC91FD /* SocketAddress.swift */,
+				280090631D45489D004C788E /* TimedOperation.swift */,
+				2800905F1D45489D004C788E /* Endian.swift */,
+				28EBC9FF1DC2CE6900CE788E /* GCDLock.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		D9A0A48E2F4FF2B800E371AA /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				28BD083F1D6248EC00D9981C /* TrueTime.m */,
 				D4C54EC323D1131A009DE762 /* ntp_types.h */,
 				D4C54EC423D1131A009DE762 /* module.modulemap */,
+				D9A0A48F2F4FF2C600E371AA /* include */,
 			);
-			path = CTrueTime;
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		D9A0A48F2F4FF2C600E371AA /* include */ = {
+			isa = PBXGroup;
+			children = (
+				280090651D45489D004C788E /* TrueTime.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

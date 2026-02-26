@@ -17,7 +17,13 @@ let package = Package(
     targets: [
         .target(
             name: "TrueTime",
-            path: "Sources"
+            dependencies: ["TrueTimeObjC"],
+            path: "Sources/Swift"
+        ),
+        .target(
+            name: "TrueTimeObjC",
+            path: "Sources/ObjC",
+            publicHeadersPath: "include"
         )
     ]
 )
