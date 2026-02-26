@@ -243,6 +243,8 @@
 		2800905D1D45489D004C788E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				28BD083F1D6248EC00D9981C /* TrueTime.m */,
+				280090651D45489D004C788E /* TrueTime.h */,
 				D9A0A48E2F4FF2B800E371AA /* ObjC */,
 				D9A0A48D2F4FF2B200E371AA /* Swift */,
 				280090601D45489D004C788E /* Info.plist */,
@@ -370,7 +372,6 @@
 		D9A0A48E2F4FF2B800E371AA /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				28BD083F1D6248EC00D9981C /* TrueTime.m */,
 				D4C54EC423D1131A009DE762 /* module.modulemap */,
 				D9A0A48F2F4FF2C600E371AA /* include */,
 			);
@@ -381,7 +382,6 @@
 			isa = PBXGroup;
 			children = (
 				D4C54EC323D1131A009DE762 /* ntp_types.h */,
-				280090651D45489D004C788E /* TrueTime.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
